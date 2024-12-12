@@ -1,8 +1,8 @@
 
 import { connect } from "cloudflare:sockets";
 
-let password = '';
-let proxyIP = '';
+let password = 'togoice';
+let proxyIP = 'ts.hpc.tw';
 let sub = ''; 
 let subConverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假节点信息防泄露
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
